@@ -2,15 +2,15 @@ import { Link } from "react-router-dom"
 import Footer from "../../Layouts/Footer/Footer"
 
 
-function Experience() {
+function NivelIngles() {
   return (
     <>
-      <h1>Experiencia</h1>
+      <h1>Nivel de Ingles</h1>
       <ul>
-        <li>NO</li>
+        <li>A2</li>
       </ul>
     </>
   );
 }
 
-export default Experience;
+export default NivelIngles;
