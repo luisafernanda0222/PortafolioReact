@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram, FaEnvelope } from "react
 function RedesSociales() {
   return (
     <div className="redes-container">
-      <h1>Redes Sociales</h1>
+      
       <div className="redes-grid">
         <a href="https://github.com/luisafernanda0222">
           <FaGithub size={30} /> GitHub

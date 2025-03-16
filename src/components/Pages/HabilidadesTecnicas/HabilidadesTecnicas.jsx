@@ -1,6 +1,6 @@
 import React from "react"
 import reactImg from "../../../assets/img/reactImg.png"
-import javaScripImg from '../../../assets/img/javaScripImg.png'
+import javaScripimg1 from '../../../assets/img/javaScripimg1.png'
 import tailwindImg from '../../../assets/img/tailwindImg.png'
 import javaImg from '../../../assets/img/javaImg.png'
 
@@ -12,7 +12,7 @@ const tecnologias = [
   },
   {
     nombre: "HTML, CSS, JavaScript",
-    imagen: javaScripImg,
+    imagen: javaScripimg1,
     descripcion: "Tengo conocimientos básicos y lo estoy aprendiendo desde cero, paso a paso. Trabajo con JavaScript en proyectos como una calculadora de notas y un traductor de palabras.",
   },
   {

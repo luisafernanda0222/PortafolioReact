@@ -1,14 +1,14 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color:#f3e9fb;
+  font-family: sans-serif;
+  background-color: #DFC7F5;
 }
 
 .first-container {
   text-align: center;
-  background: rgb(170, 121, 234);
+  background-color: #8B5FBF; 
   padding: 20px;
   border-radius: 10px;
-  color: rgb(233, 239, 238);
+  color: #ffffff;
 }
 
 .image-profile{
@@ -19,14 +19,14 @@
 .btn {
   display: inline-block;
   padding: 12px 20px;
-  background-color: rgb(255, 255, 255);
-  color: #890aea;
+  background-color: #FFFFFF;
+  color: #7B2CDF;
   text-decoration: none;
   border-radius: 10px; 
 }
 
 .btn:hover {
-  background-color: #d409ef;
+  background-color: #7B2CDF;
   color: white;
 }
 
@@ -35,10 +35,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #bda8cd;
+  background: #7B5FA4;
   padding: 15px;
   
 }
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center; 
+  flex-wrap: wrap; /* Permite que los botones se acomoden en varias líneas si no caben */
+}
+
 
 .habilidades-container {
   text-align: center;
@@ -48,12 +56,19 @@
   display: grid;
   gap: 20px;
   justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .habilidad-card {
-  background-color: rgb(170, 121, 234);
-  padding: 15px;
-  border-radius: 20px;
+  background-color: #9F7ED8;
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+.habilidad-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .habilidad-imagen {
@@ -65,35 +80,44 @@
 .habilidad-nombre {
   font-size: 2rem;
   color:aliceblue;
+
 }
 
 .habilidad-descripcion {
   font-size: 1rem;
-  color:black;
+  color:#E0E0E0;
 }
 
 
+
 .redes-container {
-  text-align: center;
-  margin: 20px 0;
+  margin-top: 20px ;
 }
 
 .redes-grid {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
+  padding: 10px;
+  flex-wrap: wrap; 
 }
 
 .redes-grid a {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   text-decoration: none;
   color: #333333;
   font-size: 18px;
   transition: color 0.3s;
+  padding: 8px;
+  transition: transform 0.3s ease;
 }
 
 .redes-grid a:hover {
-  color: #007bff;
+  color: #8e0cf1;
+  transform: scale(1.1);
 }
+
+
+

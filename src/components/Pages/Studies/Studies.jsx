@@ -10,12 +10,8 @@ const studies = [
     descripcion: "Completé mi formación media en el colegio, desarrolló pensamiento crítico, resolución de problemas y bases en diferentes áreas del conocimiento.",
   },
   {
-    nombre: " Tecnic en Analisis y Desarrollo de Software",
+    nombre: " Tecnico en Analisis y Desarrollo de Software",
     descripcion: "Obtuve conocimientos en lógica de programación, bases de datos y desarrollo de aplicaciones, sentando las bases para mi formación en tecnología.",
-  },
-  {
-    nombre: " Tecnologo en Analisis y Desarrollo de Software",
-    descripcion: " Actualmente estoy cursando esta formación, especializándome en el diseño, desarrollo e implementación de software, fortaleciendo mis habilidades en lenguajes de programación, bases de datos y metodologías ágiles.",
   },
   {
     nombre: "Aplicacion de normas y reglas ortograficas en la redaccion de documnetos empresariales",
@@ -33,6 +29,11 @@ const studies = [
     nombre: "Fortalecimiento en lectura crítica para articulación con la media",
     descripcion: "Desarrollé habilidades de análisis y comprensión de textos, lo que me ha permitido mejorar mi pensamiento crítico y mi capacidad de interpretar información en diferentes formatos.",
   },
+  {
+    nombre: " Tecnologo en Analisis y Desarrollo de Software",
+    descripcion: " Actualmente estoy cursando esta formación, especializándome en el diseño, desarrollo e implementación de software, fortaleciendo mis habilidades en lenguajes de programación, bases de datos y metodologías ágiles.",
+  },
+  
 ];
 
 function Studies() {
