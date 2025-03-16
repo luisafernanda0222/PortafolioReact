@@ -1,17 +1,11 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color:#f3e9fb;
 }
 
 .first-container {
   text-align: center;
-  background: rgb(140, 7, 229);
+  background: rgb(170, 121, 234);
   padding: 20px;
   border-radius: 10px;
   color: rgb(233, 239, 238);
@@ -19,27 +13,87 @@
 
 .image-profile{
   width: 45%;
-  
-}
-
-.buttons-container {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column; 
-  gap: 10px;
-  align-items: center; 
+  border-radius: 3rem;
 }
 
 .btn {
-  width: 120px; 
-  padding: 10px;
-  text-align: center;
-  background-color:  #890aea;
-  color: rgb(254, 254, 254);
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: rgb(255, 255, 255);
+  color: #890aea;
   text-decoration: none;
-  border-radius: 35px;
+  border-radius: 10px; 
 }
 
 .btn:hover {
-  background-color:#d409ef;
+  background-color: #d409ef;
+  color: white;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #bda8cd;
+  padding: 15px;
+  
+}
+
+.habilidades-container {
+  text-align: center;
+}
+
+.habilidades-grid {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+.habilidad-card {
+  background-color: rgb(170, 121, 234);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.habilidad-imagen {
+  width:auto;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.habilidad-nombre {
+  font-size: 2rem;
+  color:aliceblue;
+}
+
+.habilidad-descripcion {
+  font-size: 1rem;
+  color:black;
+}
+
+
+.redes-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.redes-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.redes-grid a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.redes-grid a:hover {
+  color: #007bff;
 }
