@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import "./index.css";
-
 import Header from "./components/Layouts/Header/Header";
 import Footer from "./components/Layouts/Footer/Footer";
-
 import Home from "./components/Pages/Home/Home";
 import Experience from "./components/Pages/Experience/Experience";
 import HabilidadesTecnicas from "./components/Pages/HabilidadesTecnicas/HabilidadesTecnicas";

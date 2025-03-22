@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../../Layouts/Footer/Footer";
 
-const habilidadesSociales = [
+export const habilidadesSociales = [
   {
     nombre: "Trabajo en equipo",
     descripcion: " Disfruto colaborar con otros, fomentando un entorno donde cada integrante pueda aportar sus ideas y habilidades.",

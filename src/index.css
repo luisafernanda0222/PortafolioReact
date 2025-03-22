@@ -5,10 +5,8 @@
 
 .first-container {
   text-align: center;
-  background-color: #8B5FBF; 
+  background-color:#C084FC; 
   padding: 20px;
-  border-radius: 10px;
-  color: #ffffff;
 }
 
 .image-profile{
@@ -19,15 +17,15 @@
 .btn {
   display: inline-block;
   padding: 12px 20px;
-  background-color: #FFFFFF;
+  background-color: #f3e8fd;
   color: #7B2CDF;
   text-decoration: none;
   border-radius: 10px; 
 }
 
 .btn:hover {
-  background-color: #7B2CDF;
-  color: white;
+  background-color: #C084FC;
+  
 }
 
 
@@ -35,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #7B5FA4;
+  background: #D8B4FE;
   padding: 15px;
   
 }
@@ -44,7 +42,7 @@
   display: flex;
   gap: 10px;
   justify-content: center; 
-  flex-wrap: wrap; /* Permite que los botones se acomoden en varias líneas si no caben */
+  flex-wrap: wrap; 
 }
 
 
