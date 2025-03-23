@@ -22,11 +22,12 @@
   color: #7B2CDF;
   text-decoration: none;
   border-radius: 10px; 
+  
 }
 
 .btn:hover {
   background-color: #C084FC;
-  
+  color:#FFFF;
 }
 
 

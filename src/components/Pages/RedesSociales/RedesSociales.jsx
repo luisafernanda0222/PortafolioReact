@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram, FaBriefcase, FaEnvelope  } from "react-icons/fa";
 
 function RedesSociales() {
   return (
@@ -16,6 +16,9 @@ function RedesSociales() {
         </a>
         <a href="https://www.instagram.com/luis4fern4nd4?igsh=aTd0djExaDc3ODVw&utm_source=qr">
           <FaInstagram size={30} />  Instagram
+        </a>
+        <a href="https://candidato.co.computrabajo.com/candidate/cv/edit">
+          <FaBriefcase size={30} /> Computrabajo
         </a>
         <a href="mailto:luisafernandamajin0222@gmail.com">
           <FaEnvelope size={30} /> Correo
