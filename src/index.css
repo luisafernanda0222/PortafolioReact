@@ -62,7 +62,7 @@
 .habilidad-card {
   background-color: #9F7ED8;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 35px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 }
@@ -79,7 +79,7 @@
 
 .habilidad-nombre {
   font-size: 2rem;
-  color:aliceblue;
+  color:#E0E0E0;
 
 }
 
@@ -87,8 +87,6 @@
   font-size: 1rem;
   color:#E0E0E0;
 }
-
-
 
 .redes-container {
   margin-top: 20px ;
