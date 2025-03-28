@@ -14,7 +14,7 @@ const Home = () => {
         </p>
       </div>
 
-      {/* Nuevo div separado para Redes Sociales */}
+    
       <div className="redes-footer">
         <RedesSociales />
       </div>
